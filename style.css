@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  gap: 20px;
+}
+.item {
+  background-color: rgb(204, 205, 212);
+  width: 30%;
+  padding-inline: 5px;
+}
+
+.image {
+  width: 70%;
+  box-shadow: 1px 1px rgb(147, 144, 144);
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  font-family: "Mulish", sans-serif;
+}
+.header {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: larger;
+  font-weight: 600;
+}
